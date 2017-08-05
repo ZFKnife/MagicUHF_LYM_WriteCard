@@ -1,0 +1,10 @@
+#Sat Aug 05 14:21:42 GMT+08:00 2017
+renamed.2=classes.dex
+renamed.1=classes3.dex
+renamed.0=classes2.dex
+base.2=C\:\\Users\\Administrator\\Desktop\\zf\\MagicUHF_WriteCard\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\2\\android-support-v4_165d7735e1cda0ed9485c0ffff60f738c4e82199
+base.1=C\:\\Users\\Administrator\\Desktop\\zf\\MagicUHF_WriteCard\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\2\\volley_f56ef8d2010fec0dee90e86dcca62d74cbd0ca9c
+base.0=C\:\\Users\\Administrator\\Desktop\\zf\\MagicUHF_WriteCard\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\2\\uhf_0cffbff1899d58d955f89962cbbba05036a8e2f3
+file.2=C\:\\Users\\Administrator\\Desktop\\zf\\MagicUHF_WriteCard\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\2\\android-support-v4_165d7735e1cda0ed9485c0ffff60f738c4e82199\\classes.dex
+file.1=C\:\\Users\\Administrator\\Desktop\\zf\\MagicUHF_WriteCard\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\2\\volley_f56ef8d2010fec0dee90e86dcca62d74cbd0ca9c\\classes.dex
+file.0=C\:\\Users\\Administrator\\Desktop\\zf\\MagicUHF_WriteCard\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\2\\uhf_0cffbff1899d58d955f89962cbbba05036a8e2f3\\classes.dex

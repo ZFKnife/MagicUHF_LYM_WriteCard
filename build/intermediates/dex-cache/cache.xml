@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\Desktop\zf\MagicUHF_WriteCard\libs\android-support-v4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="5896b0a4e377ac4242eb2bc785220c1c4fc052f4">
+        <dex dex="C:\Users\Administrator\Desktop\zf\MagicUHF_WriteCard\build\intermediates\transforms\dex\debug\folders\1000\2\android-support-v4_165d7735e1cda0ed9485c0ffff60f738c4e82199\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\Desktop\zf\MagicUHF_WriteCard\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="C:\Users\Administrator\Desktop\zf\MagicUHF_WriteCard\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_4f418db430c0bb232b704b2d38f415cbf3c178e6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\Desktop\zf\MagicUHF_WriteCard\libs\volley.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4a94601db9bdfb7dc60efabb3dea91a0675f591d">
+        <dex dex="C:\Users\Administrator\Desktop\zf\MagicUHF_WriteCard\build\intermediates\transforms\dex\debug\folders\1000\2\volley_f56ef8d2010fec0dee90e86dcca62d74cbd0ca9c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\Desktop\zf\MagicUHF_WriteCard\libs\uhf.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="bc8ff4cec14f3951d8ab8e01214c0e5842fdf104">
+        <dex dex="C:\Users\Administrator\Desktop\zf\MagicUHF_WriteCard\build\intermediates\transforms\dex\debug\folders\1000\2\uhf_0cffbff1899d58d955f89962cbbba05036a8e2f3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrator\Desktop\zf\MagicUHF_WriteCard\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="32972e131850b236e963422beaca4d2b764d93eb">
+        <dex dex="C:\Users\Administrator\Desktop\zf\MagicUHF_WriteCard\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_e37083dabc0daaf3eabe1faec2783883e94d785b\classes.dex" />
+    </item>
+
+</items>

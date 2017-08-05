@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\zf\\MagicUHF_WriteCard\\build\\intermediates\\res\\merged\\debug\\layout\\test_view.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\zf\\MagicUHF_WriteCard\\res\\layout\\test_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\zf\\MagicUHF_WriteCard\\build\\intermediates\\res\\merged\\debug\\layout\\activity_home.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\zf\\MagicUHF_WriteCard\\res\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\zf\\MagicUHF_WriteCard\\build\\intermediates\\res\\merged\\debug\\layout\\activity_receiver_write.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\zf\\MagicUHF_WriteCard\\res\\layout\\activity_receiver_write.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\zf\\MagicUHF_WriteCard\\build\\intermediates\\res\\merged\\debug\\layout\\lock.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\zf\\MagicUHF_WriteCard\\res\\layout\\lock.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\zf\\MagicUHF_WriteCard\\build\\intermediates\\res\\merged\\debug\\layout\\epc.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\zf\\MagicUHF_WriteCard\\res\\layout\\epc.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\zf\\MagicUHF_WriteCard\\build\\intermediates\\res\\merged\\debug\\layout\\activity_shipper_write.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\zf\\MagicUHF_WriteCard\\res\\layout\\activity_shipper_write.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\zf\\MagicUHF_WriteCard\\build\\intermediates\\res\\merged\\debug\\layout\\activity_writecard.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\zf\\MagicUHF_WriteCard\\res\\layout\\activity_writecard.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\zf\\MagicUHF_WriteCard\\build\\intermediates\\res\\merged\\debug\\layout\\readwrite.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\zf\\MagicUHF_WriteCard\\res\\layout\\readwrite.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\zf\\MagicUHF_WriteCard\\build\\intermediates\\res\\merged\\debug\\layout\\listviewitem.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\zf\\MagicUHF_WriteCard\\res\\layout\\listviewitem.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\zf\\MagicUHF_WriteCard\\build\\intermediates\\res\\merged\\debug\\layout\\activity_magic_main.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\zf\\MagicUHF_WriteCard\\res\\layout\\activity_magic_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\zf\\MagicUHF_WriteCard\\build\\intermediates\\res\\merged\\debug\\layout\\setting.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\zf\\MagicUHF_WriteCard\\res\\layout\\setting.xml"
+    }
+]

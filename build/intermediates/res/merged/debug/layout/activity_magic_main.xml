@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal" >
+
+                <RelativeLayout
+                    android:id="@+id/rl_main_taskManager"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:background="#3299CD" >
+
+                    <Button
+                        android:id="@+id/Setting"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:text="@string/Setting" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rl_main_outstorage"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="10px"
+                    android:background="#FF9932" >
+
+                    <Button
+                        android:id="@+id/ReadEPC"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:text="@string/EPC" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal" >
+
+                <RelativeLayout
+                    android:id="@+id/rl_main_taskManager1"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:background="#3299CD" >
+
+                    <Button
+                        android:id="@+id/ReadWrite"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:text="@string/ReadWrite" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rl_main_outstorage1"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="10px"
+                    android:background="#FF9932" >
+
+                    <Button
+                        android:id="@+id/Lockkill"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1"
+                        android:text="@string/Lockkill" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal" >
+
+                    <RelativeLayout
+                        android:id="@+id/rl_main_taskManager1"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:background="#3299CD" >
+
+                        <Button
+                            android:id="@+id/btn_test"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="1"
+                            android:text="@string/TEST" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/rl_main_outstorage1"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_marginLeft="10px"
+                        android:background="#FF9932" >
+
+                        <TextView
+                            android:id="@+id/text_versionName"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:text="" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+</LinearLayout>
