@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/MagicUHF_WriteCard.iml" filepath="$PROJECT_DIR$/MagicUHF_WriteCard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MagicUHFBase.iml" filepath="$PROJECT_DIR$/MagicUHFBase.iml" />
     </modules>
   </component>
 </project>

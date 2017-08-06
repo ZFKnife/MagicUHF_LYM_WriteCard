@@ -9,9 +9,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-/**
- * Created by DXL on 2017-06-24.
- */
+
 
 public class WriteCardActivity extends Activity implements IUHFView {
     private static final String TAG = "WriteCard";

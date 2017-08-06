@@ -11,7 +11,7 @@ import com.fxb.writecard.model.ReadModel;
 import com.olc.uhf.tech.ISO1800_6C;
 
 /**
- * Created by Administrator on 2017/8/4 0004.
+ * Created by zf on 2017/8/4 0004.
  */
 
 public class ReaderWritePresenter {
