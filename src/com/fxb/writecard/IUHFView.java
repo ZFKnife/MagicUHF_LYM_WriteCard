@@ -1,4 +1,4 @@
-package android.hardware.uhf.magic;
+package com.fxb.writecard;
 
 /**
  * zf 2033152950

@@ -1,8 +1,7 @@
-package android.hardware.uhf.magic;
+package com.fxb.writecard;
 
 import android.util.Log;
 
-import com.fxb.writecard.App;
 import com.olc.uhf.tech.ISO1800_6C;
 
 /**
