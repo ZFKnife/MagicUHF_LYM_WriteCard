@@ -3,9 +3,7 @@ package com.fxb.writecard.util;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-/**
- * author zaaach on 2016/1/26.
- */
+
 public class StringUtils {
     /**
      * 16进制转换成字符串

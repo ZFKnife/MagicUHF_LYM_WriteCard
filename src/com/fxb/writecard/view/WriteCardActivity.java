@@ -8,12 +8,16 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+<<<<<<< HEAD:src/com/fxb/writecard/view/WriteCardActivity.java
 import com.fxb.writecard.R;
 import com.fxb.writecard.presenter.ReaderWritePresenter;
 
 /**
  * Created by DXL on 2017-06-24.
  */
+=======
+
+>>>>>>> origin/master:src/com/fxb/writecard/WriteCardActivity.java
 
 public class WriteCardActivity extends Activity implements IUHFView {
     private static final String TAG = "WriteCard";

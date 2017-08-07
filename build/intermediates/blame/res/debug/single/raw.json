@@ -8,8 +8,28 @@
         "source": "C:\\Users\\Administrator\\Desktop\\zf\\MagicUHF_WriteCard\\res\\raw\\dudu.ogg"
     },
     {
+        "merged": "D:\\MagicUHFBase\\build\\intermediates\\res\\merged\\debug\\raw\\beep_ok.wav",
+        "source": "D:\\MagicUHFBase\\res\\raw\\beep_ok.wav"
+    },
+    {
+        "merged": "D:\\MagicUHFBase\\build\\intermediates\\res\\merged\\debug\\raw\\chimes.wav",
+        "source": "D:\\MagicUHFBase\\res\\raw\\chimes.wav"
+    },
+    {
         "merged": "C:\\Users\\Administrator\\Desktop\\zf\\MagicUHF_WriteCard\\build\\intermediates\\res\\merged\\debug\\raw\\beep_err.wav",
         "source": "C:\\Users\\Administrator\\Desktop\\zf\\MagicUHF_WriteCard\\res\\raw\\beep_err.wav"
+    },
+    {
+        "merged": "D:\\MagicUHFBase\\build\\intermediates\\res\\merged\\debug\\raw\\didi.ogg",
+        "source": "D:\\MagicUHFBase\\res\\raw\\didi.ogg"
+    },
+    {
+        "merged": "D:\\MagicUHFBase\\build\\intermediates\\res\\merged\\debug\\raw\\dudu.ogg",
+        "source": "D:\\MagicUHFBase\\res\\raw\\dudu.ogg"
+    },
+    {
+        "merged": "D:\\MagicUHFBase\\build\\intermediates\\res\\merged\\debug\\raw\\beep_err.wav",
+        "source": "D:\\MagicUHFBase\\res\\raw\\beep_err.wav"
     },
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\zf\\MagicUHF_WriteCard\\build\\intermediates\\res\\merged\\debug\\raw\\didi.ogg",
