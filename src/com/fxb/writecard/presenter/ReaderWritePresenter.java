@@ -1,9 +1,13 @@
-package com.fxb.writecard;
+package com.fxb.writecard.presenter;
 
 import android.os.Handler;
 import android.os.Looper;
 import android.util.Log;
 
+import com.fxb.writecard.view.IUHFView;
+import com.fxb.writecard.util.StringUtils;
+import com.fxb.writecard.model.AbstractUHFModel;
+import com.fxb.writecard.model.IResponse;
 import com.fxb.writecard.model.ReadModel;
 import com.olc.uhf.tech.ISO1800_6C;
 

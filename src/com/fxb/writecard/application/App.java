@@ -1,4 +1,4 @@
-package com.fxb.writecard;
+package com.fxb.writecard.application;
 
 import android.app.Application;
 import android.content.Context;

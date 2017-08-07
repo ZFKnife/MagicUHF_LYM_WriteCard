@@ -1,4 +1,4 @@
-package com.fxb.writecard;
+package com.fxb.writecard.view;
 
 /**
  * zf 2033152950

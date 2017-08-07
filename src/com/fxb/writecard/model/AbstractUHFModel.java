@@ -1,7 +1,9 @@
-package com.fxb.writecard;
+package com.fxb.writecard.model;
 
 import android.util.Log;
 
+import com.fxb.writecard.application.App;
+import com.fxb.writecard.util.DevBeep;
 import com.olc.uhf.tech.ISO1800_6C;
 
 /**
@@ -71,7 +73,7 @@ public abstract class AbstractUHFModel {
     /**
      * @param date
      */
-    public abstract void WriteDate(byte[] date,IResponse iResponse);
+    public abstract void WriteDate(byte[] date, IResponse iResponse);
 
     /**
      * 转化字节数组
@@ -79,7 +81,7 @@ public abstract class AbstractUHFModel {
      * @param hexString
      * @return
      */
-    public  byte[] stringToBytes(String hexString) {
+    public byte[] stringToBytes(String hexString) {
         if (hexString == null || hexString.equals("")) {
             return null;
         }

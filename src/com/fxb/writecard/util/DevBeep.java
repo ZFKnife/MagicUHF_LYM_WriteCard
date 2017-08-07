@@ -1,4 +1,4 @@
-package com.fxb.writecard;
+package com.fxb.writecard.util;
 
 import android.content.Context;
 import android.media.AudioManager;
@@ -6,13 +6,13 @@ import android.media.SoundPool;
 
 import com.fxb.writecard.R;
 
-class DevBeep {
+public class DevBeep {
 	private static SoundPool soundPool=null;
 	private static int sound_errID=0;
 	private static int sound_okID=0;
 	private static int stream_beepID=0;
 	private static boolean bRunning;
-	static  void init(Context ct)
+	public static  void init(Context ct)
 	{
 		bRunning = false; 
 		//if(soundPool == null)
@@ -32,8 +32,8 @@ class DevBeep {
 		soundPool.unload(sound_okID);
 		soundPool.release();
 	}
-	
-	static void PlayOK()
+
+	public	static void PlayOK()
 	{
 		if(bRunning)return;
 		if(soundPool==null)return;
@@ -41,8 +41,8 @@ class DevBeep {
 		if(stream_beepID >0)soundPool.stop(stream_beepID);
 		stream_beepID = soundPool.play(sound_okID , 1.0f, 1.0f, 0, 0, 1.0f);
 		bRunning = false;
-	}	
-	static void PlayErr()
+	}
+	public static void PlayErr()
 	{
 		if(bRunning)return;
 		if(soundPool==null)return;

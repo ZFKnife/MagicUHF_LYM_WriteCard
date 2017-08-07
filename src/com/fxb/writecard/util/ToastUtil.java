@@ -1,4 +1,4 @@
-package com.fxb.writecard;
+package com.fxb.writecard.util;
 
 import android.content.Context;
 import android.widget.Toast;

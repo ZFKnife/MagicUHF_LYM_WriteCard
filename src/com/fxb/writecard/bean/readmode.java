@@ -1,4 +1,4 @@
-package com.fxb.writecard;
+package com.fxb.writecard.bean;
 
 import java.io.Serializable;
 

@@ -1,11 +1,9 @@
 package com.fxb.writecard.model;
 
-import com.fxb.writecard.AbstractUHFModel;
-import com.fxb.writecard.IResponse;
 import android.os.RemoteException;
 import android.util.Log;
 
-import com.fxb.writecard.StringUtils;
+import com.fxb.writecard.util.StringUtils;
 import com.olc.uhf.tech.IUhfCallback;
 
 import java.util.Iterator;
