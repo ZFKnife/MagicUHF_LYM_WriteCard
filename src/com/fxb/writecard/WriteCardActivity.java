@@ -1,7 +1,6 @@
 package com.fxb.writecard;
 
 import android.app.Activity;
-import android.hardware.uhf.magic.IUHFView;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;

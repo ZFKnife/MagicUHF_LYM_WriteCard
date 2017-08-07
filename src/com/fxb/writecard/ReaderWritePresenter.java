@@ -1,8 +1,5 @@
 package com.fxb.writecard;
 
-import android.hardware.uhf.magic.AbstractUHFModel;
-import android.hardware.uhf.magic.IResponse;
-import android.hardware.uhf.magic.IUHFView;
 import android.os.Handler;
 import android.os.Looper;
 import android.util.Log;

@@ -1,7 +1,7 @@
 package com.fxb.writecard.model;
 
-import android.hardware.uhf.magic.AbstractUHFModel;
-import android.hardware.uhf.magic.IResponse;
+import com.fxb.writecard.AbstractUHFModel;
+import com.fxb.writecard.IResponse;
 import android.os.RemoteException;
 import android.util.Log;
 
