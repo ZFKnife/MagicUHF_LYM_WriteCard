@@ -9,6 +9,8 @@ public interface IUHFViewBase {
 
     public void setEPCtext(String EPC);
 
-    public void showToast(String text);
+    public void showToast(String str);
+
+    public void setDialog(String str);
 
 }
