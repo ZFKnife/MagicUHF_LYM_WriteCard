@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.fxb.writecard.R;
 import com.fxb.writecard.presenter.ReaderWritePresenter;
@@ -15,7 +16,7 @@ import com.fxb.writecard.presenter.ReaderWritePresenter;
  * Created by DXL on 2017-06-24.
  */
 
-public class WriteCardActivity extends Activity implements IUHFView {
+public class WriteCardActivity extends Activity implements IUHFViewBase {
     private static final String TAG = "WriteCard";
 
     private TextView tv_Epc;
@@ -84,6 +85,7 @@ public class WriteCardActivity extends Activity implements IUHFView {
         Log.e("写入的数据=================", dataE);
         mReaderPresenter.writeCard(dataE);
     }
+
     @Override
     public void setEPCtext(String EPC) {
         tv_Epc.setText(EPC);
@@ -91,6 +93,6 @@ public class WriteCardActivity extends Activity implements IUHFView {
 
     @Override
     public void showToast(String text) {
-
+        Toast.makeText(this, text, Toast.LENGTH_SHORT).show();
     }
 }

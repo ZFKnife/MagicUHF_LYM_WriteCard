@@ -8,7 +8,7 @@ import com.fxb.writecard.model.AbstractUHFModel;
 import com.fxb.writecard.model.IResponse;
 import com.fxb.writecard.model.ReadModel;
 import com.fxb.writecard.util.DevBeep;
-import com.fxb.writecard.view.IUHFView;
+import com.fxb.writecard.view.IUHFViewBase;
 import com.olc.uhf.tech.ISO1800_6C;
 
 import java.io.UnsupportedEncodingException;
@@ -23,7 +23,7 @@ public class ReaderWritePresenter {
 
     private final String TAG = ReaderWritePresenter.class.getSimpleName();
 
-    private IUHFView iuhfView;
+    private IUHFViewBase iuhfViewBase;
 
     private ISO1800_6C uhf_6c;
 
@@ -32,8 +32,8 @@ public class ReaderWritePresenter {
     private ReaderWritePresenter() {
     }
 
-    public ReaderWritePresenter(IUHFView iuhfView) {
-        this.iuhfView = iuhfView;
+    public ReaderWritePresenter(IUHFViewBase iuhfViewBase) {
+        this.iuhfViewBase = iuhfViewBase;
         this.abstractUHFModel = new ReadModel();
     }
 
@@ -42,7 +42,7 @@ public class ReaderWritePresenter {
         if (epc == null) {
             return;
         }
-        iuhfView.setEPCtext(epc);
+        iuhfViewBase.setEPCtext(epc);
     }
 
     public void readCard() {
