@@ -23,16 +23,18 @@ public class WriteCardPresenter extends Presenter {
         StringBuilder sb = new StringBuilder();
         String cardNum = iWriteCardView.getCardNum();
         if (cardNum.equals("")) {
-            sb.append(cardNum);
             iWriteCardView.showToast("卡牌编号不可以为空！");
             return;
         }
         String carNum = iWriteCardView.getCarNum();
         if (carNum.equals("")) {
-            sb.append(carNum);
             iWriteCardView.showToast("车牌号不可以为空！");
             return;
         }
+        sb.append(cardNum);
+        sb.append(",");
+        sb.append(carNum);
+        sb.append(",");
         writeTrue(sb.toString());
     }
 

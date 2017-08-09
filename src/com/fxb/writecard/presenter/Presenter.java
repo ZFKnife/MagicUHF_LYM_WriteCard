@@ -60,14 +60,12 @@ public abstract class Presenter {
         abstractUHFModel.ReadDate(new IResponse() {
             @Override
             public void Response(byte[] bytes) {
-                String str = null;
                 try {
-                    str = new String(bytes, "UTF-8");
-                    final String finalStr = str;
+                    final String str = new String(bytes, "UTF-8");
                     mHandler.post(new Runnable() {
                         @Override
                         public void run() {
-                            readResponse(finalStr);
+                            readResponse(str);
                         }
                     });
                 } catch (UnsupportedEncodingException e) {
@@ -77,6 +75,7 @@ public abstract class Presenter {
 
             @Override
             public void Error(int code, String error) {
+                Log.d(TAG, "Error: code = " + code);
                 if (code != 0) {
                     read(sa, dl);
                 }
@@ -160,6 +159,7 @@ public abstract class Presenter {
 
             @Override
             public void Error(int code, String error) {
+                Log.d(TAG, "Error: code = " + code);
                 if (code != 0) {
                     write(date, nSA, nDL);
                 }

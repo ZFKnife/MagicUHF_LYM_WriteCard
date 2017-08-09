@@ -49,8 +49,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="3"
             android:hint="请输入编码"
-            android:inputType="numberDecimal"
-            android:maxLength="5"
+            android:maxLength="7"
             android:textColor="@color/white"
             android:textCursorDrawable="@null"
             android:textSize="18dp" />
