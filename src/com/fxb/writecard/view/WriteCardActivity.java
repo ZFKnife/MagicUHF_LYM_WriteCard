@@ -36,13 +36,8 @@ public class WriteCardActivity extends Activity implements IUHFView {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_writecard);
-
-//        初始化界面
         initView();
-//        注册 hander
-//    reader.reg_handler(mHandler);
         mReaderPresenter = new ReaderWritePresenter(this);
-//        事件监听
         onClick();
     }
 
@@ -83,75 +78,12 @@ public class WriteCardActivity extends Activity implements IUHFView {
 
 
     private void writeTag() {
-//    if ("".equals()) {
-//      Toast.makeText(WriteCardActivity.this, "Please select the EPC tags",
-//        Toast.LENGTH_SHORT).show();
-//      return;
-//    }
-//    if (TextUtils.isEmpty(et_Coding.getText().toString().trim())) {
-//      ToastUtil.getShortToastByString(WriteCardActivity.this, "编码不能为空");
-//      return;
-//    } else if (TextUtils.isEmpty(et_CarNum.getText().toString().trim())) {
-//      ToastUtil.getShortToastByString(WriteCardActivity.this, "车牌号不能为空");
-//      return;
-//    } else {
-        //操作区域 EPC(代码为1)
-//      btMemBank = (byte) 1;
-        //起始地址 2
-//      nadd = 2;
-        //读取长度
-//      ndatalen = 12;
-//      //密码
-//      mimaStr = "00000000";
-//
-//      if (mimaStr == null || mimaStr.equals("")) {
-//        m_strresult += "Please enter your 8 - digit password!!\n";
-//        tv_ResultView.setText(m_strresult);
-//        return;
-//      }
-//      byte[] passw = reader.stringToBytes(mimaStr);
-//      byte[] pwrite = new byte[ndatalen * 2];
-
         String pn = et_CarNum.getText().toString();
-//      String a = pn.substring(0, 1);
-//      String m = "";
-//      if ("晋".equals(a)) {
-//        m = pn.replace("晋", "1");
-//      } else if ("陕".equals(a)) {
-//        m = pn.replace("陕", "2");
-//      } else if ("豫".equals(a)) {
-//        m = pn.replace("豫", "3");
-//      } else if ("冀".equals(a)) {
-//        m = pn.replace("冀", "4");
-//      } else if ("鲁".equals(a)) {
-//        m = pn.replace("鲁", "5");
-//      } else if (StringUtils.isNumeric(a) && Integer.parseInt(a) > 0 && Integer.parseInt(a) < 5) {
-//        m = pn;
-//      }
-//
-//      String dataE = et_Coding.getText().toString().trim() + "," + pn + ",";
         String name = "侯马永济第二煤场";
-//        String dataE = "000000000000000000000000000000000000000";
-//        String dataE = "KD00001,晋A56BF3,侯马永济第二煤场,56.00,18.93,37.07,0000000000";
-//        String dataE = "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000";
         String dataE = "KD00001,晋A56BF3，";
-//        String dataE = "56.00,18.93,37.07,53D2AE";
         Log.e("写入的数据=================", dataE);
         mReaderPresenter.writeCard(dataE);
-//        String dataA = "56.00,18.93,37.07,53D2AE";
-//        mReaderPresenter.writeCard(dataA);
-//      System.arraycopy(myByte, 0, pwrite, 0,
-//        myByte.length > ndatalen * 2 ? ndatalen * 2
-//          : myByte.length);
-//      byte[] epc = reader.stringToBytes(reader.m_strPCEPC);
-//      {
-//        reader.Writelables(passw, epc.length, epc, btMemBank,
-//          (byte) nadd, (byte) ndatalen * 2, pwrite);
-//      }
     }
-
-//  }
-
     @Override
     public void setEPCtext(String EPC) {
         tv_Epc.setText(EPC);
