@@ -6,13 +6,13 @@
     density="xhdpi"
     format="10"
     plugin-version="2.3.1"
-    timestamp="1501926046183"
+    timestamp="1502260074016"
     token="5523892813383707583"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="136" />
+        duration="118" />
     <task
         name="instant-run-dex"
         duration="0" />
@@ -21,7 +21,7 @@
         duration="5" />
     <task
         name="verifier"
-        duration="3" />
+        duration="2" />
 
     <artifact
         location="C:\Users\Administrator\Desktop\zf\MagicUHF_WriteCard\build\intermediates\split-apk\debug\slices\slice_3.apk"
@@ -32,8 +32,14 @@
 
     <build
         build-mode="FULL"
-        timestamp="1501924979559"
+        timestamp="1502249482368"
         verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="C:\Users\Administrator\Desktop\zf\MagicUHF_WriteCard\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Administrator\Desktop\zf\MagicUHF_WriteCard\build\outputs\apk\MagicUHF_WriteCard-debug.apk"
+            type="SPLIT_MAIN" />
         <artifact
             location="C:\Users\Administrator\Desktop\zf\MagicUHF_WriteCard\build\intermediates\split-apk\debug\slices\slice_5.apk"
             type="SPLIT" />
@@ -53,10 +59,10 @@
             location="C:\Users\Administrator\Desktop\zf\MagicUHF_WriteCard\build\intermediates\split-apk\debug\slices\slice_8.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\Administrator\Desktop\zf\MagicUHF_WriteCard\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            location="C:\Users\Administrator\Desktop\zf\MagicUHF_WriteCard\build\intermediates\split-apk\debug\dep\dependencies.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\Administrator\Desktop\zf\MagicUHF_WriteCard\build\intermediates\split-apk\debug\dep\dependencies.apk"
+            location="C:\Users\Administrator\Desktop\zf\MagicUHF_WriteCard\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\Administrator\Desktop\zf\MagicUHF_WriteCard\build\intermediates\split-apk\debug\slices\slice_3.apk"
@@ -64,6 +70,19 @@
         <artifact
             location="C:\Users\Administrator\Desktop\zf\MagicUHF_WriteCard\build\intermediates\split-apk\debug\slices\slice_1.apk"
             type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1502259265035"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Users\Administrator\Desktop\zf\MagicUHF_WriteCard\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1502260011508"
+        verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\Administrator\Desktop\zf\MagicUHF_WriteCard\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
@@ -73,23 +92,7 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1501925823013"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="C:\Users\Administrator\Desktop\zf\MagicUHF_WriteCard\build\intermediates\split-apk\debug\slices\slice_2.apk"
-            type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1501925913909"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="C:\Users\Administrator\Desktop\zf\MagicUHF_WriteCard\build\outputs\apk\MagicUHF_WriteCard-debug.apk"
-            type="SPLIT_MAIN" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1501926046183"
+        timestamp="1502260074016"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\Administrator\Desktop\zf\MagicUHF_WriteCard\build\intermediates\split-apk\debug\slices\slice_3.apk"

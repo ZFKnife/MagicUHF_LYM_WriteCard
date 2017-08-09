@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sat Aug 05 14:21:42 GMT+08:00 2017
+#Wed Aug 09 10:10:13 GMT+08:00 2017
 25.file=C\:\\Users\\Administrator\\Desktop\\zf\\MagicUHF_WriteCard\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\readwrite.xml
 25.base=C\:\\Users\\Administrator\\Desktop\\zf\\MagicUHF_WriteCard\\build\\intermediates\\res\\resources-debug.ap_
 22.set=ANDROID_RESOURCE
@@ -18,7 +18,7 @@ count=30
 0.file=C\:\\Users\\Administrator\\Desktop\\zf\\MagicUHF_WriteCard\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout-v17\\activity_receiver_write.xml
 0.base=C\:\\Users\\Administrator\\Desktop\\zf\\MagicUHF_WriteCard\\build\\intermediates\\res\\resources-debug.ap_
 21.set=ANDROID_RESOURCE
-20.file=C\:\\Users\\Administrator\\Desktop\\zf\\MagicUHF_WriteCard\\build\\intermediates\\res\\resources-debug.ap_\\res\\raw\\beep_ok.wav
+20.file=C\:\\Users\\Administrator\\Desktop\\zf\\MagicUHF_WriteCard\\build\\intermediates\\res\\resources-debug.ap_\\resources.arsc
 7.set=ANDROID_RESOURCE
 20.base=C\:\\Users\\Administrator\\Desktop\\zf\\MagicUHF_WriteCard\\build\\intermediates\\res\\resources-debug.ap_
 10.set=ANDROID_RESOURCE
@@ -33,7 +33,7 @@ count=30
 1.file=C\:\\Users\\Administrator\\Desktop\\zf\\MagicUHF_WriteCard\\build\\intermediates\\res\\resources-debug.ap_\\AndroidManifest.xml
 1.base=C\:\\Users\\Administrator\\Desktop\\zf\\MagicUHF_WriteCard\\build\\intermediates\\res\\resources-debug.ap_
 1.set=ANDROID_RESOURCE
-21.file=C\:\\Users\\Administrator\\Desktop\\zf\\MagicUHF_WriteCard\\build\\intermediates\\res\\resources-debug.ap_\\resources.arsc
+21.file=C\:\\Users\\Administrator\\Desktop\\zf\\MagicUHF_WriteCard\\build\\intermediates\\res\\resources-debug.ap_\\res\\raw\\beep_ok.wav
 21.base=C\:\\Users\\Administrator\\Desktop\\zf\\MagicUHF_WriteCard\\build\\intermediates\\res\\resources-debug.ap_
 20.set=ANDROID_RESOURCE
 16.file=C\:\\Users\\Administrator\\Desktop\\zf\\MagicUHF_WriteCard\\build\\intermediates\\res\\resources-debug.ap_\\res\\menu-v11\\magic_main.xml

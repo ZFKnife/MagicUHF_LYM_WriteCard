@@ -5,5 +5,8 @@ package com.fxb.writecard.model;
  */
 
 public interface IResponse {
-    public void Response(int code, String str);
+    public void Error(int code, String error);
+
+    public void Response(byte[] date);
+
 }

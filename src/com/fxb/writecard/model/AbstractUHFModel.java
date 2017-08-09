@@ -100,7 +100,7 @@ public abstract class AbstractUHFModel {
         return (byte) "0123456789ABCDEF".indexOf(c);
     }
 
-    protected String BytesToString(byte[] b, int nS, int ncount) {
+    public String BytesToString(byte[] b, int nS, int ncount) {
         String ret = "";
         int nMax = ncount > (b.length - nS) ? b.length - nS : ncount;
         for (int i = 0; i < nMax; i++) {
@@ -114,7 +114,7 @@ public abstract class AbstractUHFModel {
     }
 
     /**
-     * 自定义存储区
+     * 选择存储区
      *
      * @param memBank
      */
@@ -154,6 +154,13 @@ public abstract class AbstractUHFModel {
      */
     public void setnDL(int nDL) {
         this.nDL = nDL;
+    }
+
+    /**
+     * 根据错误码显示详细错误信息
+     */
+    public String getErrorDescription(int code) {
+        return uhf_6c.getErrorDescription(code);
     }
 
 }

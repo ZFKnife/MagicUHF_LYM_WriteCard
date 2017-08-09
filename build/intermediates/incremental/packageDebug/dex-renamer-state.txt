@@ -1,7 +1,7 @@
-#Sat Aug 05 14:21:42 GMT+08:00 2017
+#Wed Aug 09 10:10:13 GMT+08:00 2017
 base.0=C\:\\Users\\Administrator\\Desktop\\zf\\MagicUHF_WriteCard\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_e37083dabc0daaf3eabe1faec2783883e94d785b
-renamed.1=classes2.dex
-renamed.0=classes.dex
+renamed.1=classes.dex
+renamed.0=classes2.dex
 file.1=C\:\\Users\\Administrator\\Desktop\\zf\\MagicUHF_WriteCard\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_4f418db430c0bb232b704b2d38f415cbf3c178e6\\classes.dex
 base.1=C\:\\Users\\Administrator\\Desktop\\zf\\MagicUHF_WriteCard\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_4f418db430c0bb232b704b2d38f415cbf3c178e6
 file.0=C\:\\Users\\Administrator\\Desktop\\zf\\MagicUHF_WriteCard\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_e37083dabc0daaf3eabe1faec2783883e94d785b\\classes.dex

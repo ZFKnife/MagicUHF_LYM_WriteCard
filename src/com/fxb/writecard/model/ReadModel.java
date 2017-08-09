@@ -3,7 +3,7 @@ package com.fxb.writecard.model;
 import android.os.RemoteException;
 import android.util.Log;
 
-import com.fxb.writecard.util.StringUtils;
+import com.fxb.writecard.util.DevBeep;
 import com.olc.uhf.tech.IUhfCallback;
 
 import java.util.Iterator;
@@ -30,6 +30,7 @@ public class ReadModel extends AbstractUHFModel {
                     Log.d("wyt", "EPC=" + strepc.substring(2, 6) + strepc.substring(6));
                     strEpc = strepc.substring(2, 6) + strepc.substring(6);
                     byteEpc = stringToBytes(strEpc);
+                    DevBeep.PlayOK();
                 }
             }
 
@@ -47,19 +48,22 @@ public class ReadModel extends AbstractUHFModel {
 
     @Override
     public void ReadDate(IResponse iResponse) {
+        byte sem = 0;
         byte[] dataout = new byte[nDL * 2];
         if (byteEpc == null) {
-            Log.d(TAG, "ReadDate: ---- byteEpc is null");
             return;
         }
         if (uhf_6c == null) {
             return;
         }
-        Log.d(TAG, " ---- mimaStr=" + mimaStr + ",byteEpc=" + byteEpc + ",MemBank=" + MemBank + ",nSA=" + nSA + ",nDl=" + nDL);
         int result = uhf_6c.read(mimaStr, byteEpc.length, byteEpc, MemBank,
                 nSA, nDL, dataout, 0, nDL);
-        Log.i(TAG, "ReadDate: dataout="+dataout);
-        iResponse.Response(result, StringUtils.toStringHex(BytesToString(dataout, 0, nDL)));
+        iResponse.Error(result, getErrorDescription(result));
+        if (result == 0) {
+            iResponse.Response(dataout);
+        }
+        DevBeep.PlayOK();
+
     }
 
     @Override
@@ -67,9 +71,11 @@ public class ReadModel extends AbstractUHFModel {
         if (byteEpc == null) {
             return;
         }
-        Log.d(TAG, " --- WriteDate is start");
         int result = uhf_6c.write(mimaStr, byteEpc.length, byteEpc, MemBank,
                 nSA, nDL, date);
-        iResponse.Response(result, null);
+        iResponse.Error(result, getErrorDescription(result));
+        if (result == 0) {
+            iResponse.Response(null);
+        }
     }
 }

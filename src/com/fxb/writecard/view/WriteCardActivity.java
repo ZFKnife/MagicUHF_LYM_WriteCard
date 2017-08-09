@@ -8,16 +8,12 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-<<<<<<< HEAD:src/com/fxb/writecard/view/WriteCardActivity.java
 import com.fxb.writecard.R;
 import com.fxb.writecard.presenter.ReaderWritePresenter;
 
 /**
  * Created by DXL on 2017-06-24.
  */
-=======
-
->>>>>>> origin/master:src/com/fxb/writecard/WriteCardActivity.java
 
 public class WriteCardActivity extends Activity implements IUHFView {
     private static final String TAG = "WriteCard";
@@ -31,16 +27,8 @@ public class WriteCardActivity extends Activity implements IUHFView {
     private Button btn_Reading;
     private Button btn_writting;
 
-    //  private Handler mHandler = new WriteCardActivity.MainHandler();
     private String m_strresult = "";
 
-    /*
-     *设置EPC参数
-     * */
-    private byte btMemBank;
-    private int nadd;
-    private int ndatalen;
-    private String mimaStr;
     private ReaderWritePresenter mReaderPresenter = null;
 
 
@@ -54,7 +42,6 @@ public class WriteCardActivity extends Activity implements IUHFView {
 //        注册 hander
 //    reader.reg_handler(mHandler);
         mReaderPresenter = new ReaderWritePresenter(this);
-        mReaderPresenter.setEPCtext();
 //        事件监听
         onClick();
     }
@@ -94,53 +81,7 @@ public class WriteCardActivity extends Activity implements IUHFView {
         });
     }
 
-    /**
-     * 读取EPC
-     */
-    private void readEpc() {
 
-    }
-
-//  /**
-//   * 读取tag
-//   */
-//  private void readTag() {
-//    if ("".equals(reader.m_strPCEPC)) {
-//      Toast.makeText(WriteCardActivity.this, "Please select the EPC tags",
-//        Toast.LENGTH_SHORT).show();
-//      return;
-//    }
-//
-//    //操作区域 EPC(代码为1)
-//    btMemBank = (byte) 1;
-//    //起始地址 2
-//    nadd = 2;
-//    //读取长度
-//    ndatalen = 12;
-//    //密码
-//    mimaStr = "00000000";
-//
-//    if (mimaStr == null || mimaStr.equals("")) {
-//      m_strresult += "Please enter your 8 - digit password!!\n";
-//      tv_ResultView.setText(m_strresult);
-//      return;
-//    }
-//    byte[] passw = reader.stringToBytes(mimaStr);
-//    byte[] epc = reader.stringToBytes(reader.m_strPCEPC);
-//    if (null != epc) {
-//      if (btMemBank == 1) {
-//        reader.ReadLables(passw, epc.length, epc,
-//          (byte) btMemBank, nadd, ndatalen);
-//      } else {
-//        reader.ReadLables(passw, epc.length, epc,
-//          (byte) btMemBank, nadd, ndatalen);
-//      }
-//    }
-//  }
-
-    /*
-    * 写tag
-    * */
     private void writeTag() {
 //    if ("".equals()) {
 //      Toast.makeText(WriteCardActivity.this, "Please select the EPC tags",
@@ -190,9 +131,15 @@ public class WriteCardActivity extends Activity implements IUHFView {
 //
 //      String dataE = et_Coding.getText().toString().trim() + "," + pn + ",";
         String name = "侯马永济第二煤场";
-        String dataE = "000000000000000000000000000000000000000";
+//        String dataE = "000000000000000000000000000000000000000";
+//        String dataE = "KD00001,晋A56BF3,侯马永济第二煤场,56.00,18.93,37.07,0000000000";
+//        String dataE = "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000";
+        String dataE = "KD00001,晋A56BF3，";
+//        String dataE = "56.00,18.93,37.07,53D2AE";
         Log.e("写入的数据=================", dataE);
         mReaderPresenter.writeCard(dataE);
+//        String dataA = "56.00,18.93,37.07,53D2AE";
+//        mReaderPresenter.writeCard(dataA);
 //      System.arraycopy(myByte, 0, pwrite, 0,
 //        myByte.length > ndatalen * 2 ? ndatalen * 2
 //          : myByte.length);
@@ -214,37 +161,4 @@ public class WriteCardActivity extends Activity implements IUHFView {
     public void showToast(String text) {
 
     }
-
-//  /*
-//  * 注册 hander
-//  * */
-//  private class MainHandler extends Handler {
-//    @Override
-//    public void handleMessage(Message msg) {
-//      if (msg.what == reader.editepcsmsg) {
-//        tv_ResultView.setText((String) msg.obj);
-//      }
-//      if (msg.what == reader.msgreadwrireepc) {
-//        if (msg.obj != null) {
-//          m_strresult = (String) msg.obj;
-//          tv_ResultView.setText(StringUtils.toStringHex(m_strresult));
-//        }
-//      }
-//      if (msg.what == reader.msgreadwrite) {
-//        if (msg.obj != null) {
-//          m_strresult = (String) msg.obj;
-//          tv_ResultView.setText(m_strresult);
-//        }
-//      }
-//      //读卡信息
-//      if (msg.what == reader.msgreadepc) {
-//        String readerdata = (String) msg.obj;
-//        tv_Epc.setText(readerdata);
-//        reader.m_strPCEPC = readerdata;
-//
-//      }
-//
-//    }
-//  }
-
 }
