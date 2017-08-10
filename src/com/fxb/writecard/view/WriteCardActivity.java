@@ -37,6 +37,9 @@ public class WriteCardActivity extends Activity implements IWriteCardView {
         setContentView(R.layout.activity_writecard);
         initView();
         presenter = new WriteCardPresenter(this);
+
+        presenter.setEPCtext();
+
         onClick();
     }
 
