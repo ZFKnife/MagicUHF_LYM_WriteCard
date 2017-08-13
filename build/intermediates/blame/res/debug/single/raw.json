@@ -4,12 +4,32 @@
         "source": "C:\\Users\\Administrator\\Desktop\\zf\\MagicUHF_WriteCard\\res\\raw\\chimes.wav"
     },
     {
+        "merged": "C:\\Users\\Administrator\\Desktop\\zf\\MagicUHF_LYM_WriteCard\\build\\intermediates\\res\\merged\\debug\\raw\\beep_ok.wav",
+        "source": "C:\\Users\\Administrator\\Desktop\\zf\\MagicUHF_LYM_WriteCard\\res\\raw\\beep_ok.wav"
+    },
+    {
         "merged": "C:\\Users\\Administrator\\Desktop\\zf\\MagicUHF_WriteCard\\build\\intermediates\\res\\merged\\debug\\raw\\dudu.ogg",
         "source": "C:\\Users\\Administrator\\Desktop\\zf\\MagicUHF_WriteCard\\res\\raw\\dudu.ogg"
     },
     {
+        "merged": "C:\\Users\\Administrator\\Desktop\\zf\\MagicUHF_LYM_WriteCard\\build\\intermediates\\res\\merged\\debug\\raw\\beep_err.wav",
+        "source": "C:\\Users\\Administrator\\Desktop\\zf\\MagicUHF_LYM_WriteCard\\res\\raw\\beep_err.wav"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\zf\\MagicUHF_LYM_WriteCard\\build\\intermediates\\res\\merged\\debug\\raw\\didi.ogg",
+        "source": "C:\\Users\\Administrator\\Desktop\\zf\\MagicUHF_LYM_WriteCard\\res\\raw\\didi.ogg"
+    },
+    {
         "merged": "C:\\Users\\Administrator\\Desktop\\zf\\MagicUHF_WriteCard\\build\\intermediates\\res\\merged\\debug\\raw\\beep_err.wav",
         "source": "C:\\Users\\Administrator\\Desktop\\zf\\MagicUHF_WriteCard\\res\\raw\\beep_err.wav"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\zf\\MagicUHF_LYM_WriteCard\\build\\intermediates\\res\\merged\\debug\\raw\\dudu.ogg",
+        "source": "C:\\Users\\Administrator\\Desktop\\zf\\MagicUHF_LYM_WriteCard\\res\\raw\\dudu.ogg"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\zf\\MagicUHF_LYM_WriteCard\\build\\intermediates\\res\\merged\\debug\\raw\\chimes.wav",
+        "source": "C:\\Users\\Administrator\\Desktop\\zf\\MagicUHF_LYM_WriteCard\\res\\raw\\chimes.wav"
     },
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\zf\\MagicUHF_WriteCard\\build\\intermediates\\res\\merged\\debug\\raw\\didi.ogg",

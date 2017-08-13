@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\Administrator\\Desktop\\zf\\MagicUHF_LYM_WriteCard\\build\\intermediates\\res\\merged\\debug\\menu\\magic_main.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\zf\\MagicUHF_LYM_WriteCard\\res\\menu\\magic_main.xml"
+    },
+    {
         "merged": "C:\\Users\\Administrator\\Desktop\\zf\\MagicUHF_WriteCard\\build\\intermediates\\res\\merged\\debug\\menu\\magic_main.xml",
         "source": "C:\\Users\\Administrator\\Desktop\\zf\\MagicUHF_WriteCard\\res\\menu\\magic_main.xml"
     }
